@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville|Wendy+One);
+
+body{
+	background-color: EEE705;
+	font-family: 'Libre Baskerville';
+}
+
+#speakerBox{
+	width: 300px;
+	height: 330px;
+	margin: 0 auto;
+	background: #93A1A1;
+	padding: 1px 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#speakerBox h3, #speakerBox h4{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+#speakerBox h3{
+	font-size: 2em;
+	line-height: -9em;
+	font-family: 'Wendy One';
+	color: #115F79;
+}
+
+#speakerBox h4{
+	font-weight: bold;
+	color: #973C26;
+	margin-bottom: 5px;
+	line-height: 1.2em;
+}
+
+#speakerBox img{
+	float: right;
+	margin-left: 10px;
+	border-radius: 10px;
+	width: 100px;
+}
+
+#speakerBox p{
+	color: #1E3A40;
+	font-size: -9em;
+}
+
+#speakerBox #next_btn, #speakerBox #prev_btn{
+	background: #d33682; 
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+#speakerBox a#next_btn, #speakerBox a#prev_btn{
+	color: #FFF;
+	text-decoration: none;
+}
