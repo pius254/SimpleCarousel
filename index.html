@@ -12,11 +12,34 @@
 			</div>
 		</div>
 
+		<script id="speakerstpl" type="text/template">
+			{{#speakers}}
+				<div class="speaker">
+					<img src="assets/imgs/{{shortname}}.jpeg" alt="Photo of {{name}}" />
+					<h3>{{name}}</h3>
+					<h4>{{reknown}}</h4>
+					<p>{{bio}}</p>
+				</div>
+			{{/speakers}}
+		</script>
+
 		<!--jQuery Load-->
-		<script src="jquery-3.1.0.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 		<!--jquerycycle plugin-->
-		<script src="jquery-3.1.0.min.js"></script>
+		<script src="assets/js/jquery.cycle.js"></script>
 		<!--mustache-->
-		<script src="jquery-3.1.0.min.js"></script>
+		<script src="assets/js/mustache.min.js"></script>
+
+		<script type="text/javascript">
+			
+		$(function(){
+			$.getJSON('data.json', function(data){
+				var template = $('#speakerstpl').html();
+				var html = Mustache.to_html(template, data);
+				$('#carousel').html(html);
+			});//getJSON
+		});//function
+
+		</script>
 	</body>
 </html>
