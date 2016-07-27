@@ -1,0 +1,26 @@
+{ "speakers" : [
+{
+	"name":"Pius Wanjiru",
+	"shortname":"pm",
+	"reknown":"Web programmer and designer",
+	"bio":"He is a fouth year IT student in MMUST, Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies."
+},
+{
+	"name":"Linus Tolvald",
+	"shortname":"lt",
+	"reknown":"Founder of Linux Foundation",
+	"bio":"He has contributed so much in changing the world, Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies."
+},
+{
+	"name":"Mike Bostoke",
+	"shortname":"mb",
+	"reknown":"Founder of D3.js",
+	"bio":"He is a fouth year IT student in MMUST, Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies."
+},
+{
+	"name":"Jim Persons",
+	"shortname":"jp",
+	"reknown":"My favourite actor",
+	"bio":"He has contributed so much in changing the world, Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies."
+}
+]}
